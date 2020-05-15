@@ -6,31 +6,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="@color/colorPrimary"
-        app:menu="@menu/main_menu"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Recipe Builder"
-        android:textColor="#000000"
-        android:textSize="40dp"
-        android:fontFamily="@font/alexbrush"
-        android:layout_gravity="top|center"
-        android:gravity="center"/>
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:menu="@menu/main_menu"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipe Builder"
+            android:textColor="#000000"
+            android:textSize="40dp"
+            android:fontFamily="@font/alexbrush"
+            android:layout_alignParentTop="true"
+            android:gravity="center"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:layout_above="@id/home_bot"
+            android:layout_margin="10dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/feed_bottom"
+            android:background="@color/colorPrimaryDark"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/home_bot"/>
+    </RelativeLayout>
 
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:menu="@menu/feed_bottom"
-        android:background="@color/colorPrimaryDark"
-        android:layout_gravity="bottom|center"
-        android:id="@+id/home_bot"/>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
