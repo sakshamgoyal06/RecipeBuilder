@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "924231808504",
+    "firebase_url": "https://recipebuilder-52290.firebaseio.com",
+    "project_id": "recipebuilder-52290",
+    "storage_bucket": "recipebuilder-52290.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924231808504:android:231d5c3cd3b0579e33d20d",
+        "android_client_info": {
+          "package_name": "com.example.recipebuilder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924231808504-ec8lblpie3db53k707gqaud7e8s0sba5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAccXSChWeAHthViN2nwIhBjEHQjIfYJWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924231808504-ec8lblpie3db53k707gqaud7e8s0sba5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

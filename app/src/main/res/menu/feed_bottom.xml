@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="add Recipe"
+        app:showAsAction="always"
+        android:icon="@drawable/addicon"
+        android:id="@+id/add_home"
+        android:orderInCategory="2"
+        android:iconTint="#FFFFFF"
+        />
+    <item
+        android:title="Print Cookbook"
+        app:showAsAction="always"
+        android:icon="@drawable/bookicon"
+        android:id="@+id/book"
+        android:orderInCategory="1"
+        android:iconTint="#FFFFFF"
+        />
+    <item
+        android:title="share"
+        app:showAsAction="always"
+        android:orderInCategory="3"
+        android:icon="@drawable/shareicon"
+        android:id="@+id/share_home"
+        />
+</menu>
